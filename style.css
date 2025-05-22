@@ -1,0 +1,71 @@
+/* Réinitialisation de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Conteneur du formulaire */
+.form-container {
+  background:#ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Titre du formulaire */
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+/* Étiquettes des champs */
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #090b12;
+  font-size: 14px;
+}
+
+/* Champs de saisie */
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Bouton de soumission */
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Effet au survol du bouton */
+.form-container button:hover {
+  background-color: #ff000a;
+}
+
+
+
